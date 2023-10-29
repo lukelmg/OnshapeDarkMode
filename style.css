@@ -3,15 +3,15 @@
     --darker: #040D21;
 }
 
+.os-searchbox-container {
+  background-color:var(--dark);
+}
+
 .os-app-container{
   background-color:var(--dark);
   color: #d6d6d6;
   border:none !important;
   outline:none !important;
-}
-
-#documentDetailPanel, .os-column-splitter-container, .os-grow, .button-bar, .os-searchbox-container {
-  background-color:var(--dark) !important;
 }
 .os-searchbox-container {
   margin:0px !important;
