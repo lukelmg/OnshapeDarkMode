@@ -3,6 +3,42 @@
     --darker: #040D21;
 }
 
+.os-app-container{
+  background-color:var(--dark);
+  color: #d6d6d6;
+  border:none !important;
+  outline:none !important;
+}
+
+#documentDetailPanel, .os-column-splitter-container, .os-grow, .button-bar, .os-searchbox-container {
+  background-color:var(--dark) !important;
+}
+.os-searchbox-container {
+  margin:0px !important;
+}
+
+.footer-inner {
+  background-color:var(--dark) !important;
+}
+
+.action-button {
+  background-color:var(--dark);
+}
+
+.section-header {
+  background-color:var(--darker) !important;
+  border:none !important;
+}
+
+.document-list-header {
+  background-color:var(--darker);
+  border:none !important;
+}
+
+tr, td {
+  border:none!important;
+}
+
 .navbar-document-name,
 .navbar-document-name-overlay,
 .navbar-document-name-overlay-wrapper,
